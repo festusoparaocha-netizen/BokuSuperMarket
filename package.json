@@ -1,0 +1,29 @@
+{
+  "name": "maininventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2",
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festusoparaocha-netizen/BokuSuperMarket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/festusoparaocha-netizen/BokuSuperMarket/issues"
+  },
+  "homepage": "https://github.com/festusoparaocha-netizen/BokuSuperMarket#readme"
+}
