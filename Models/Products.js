@@ -20,10 +20,14 @@ const productSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  color: {
+    type: String,
+    
+  },
   timestamps: true // Automatically adds createdAt and updatedAt fields
 });
 
 // Create model from schema
 const Product = mongoose.model('Product', productSchema);
 
-module.exports = Product;
+module.exports = Product; // Export the Product model to be used in other files
