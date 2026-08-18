@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const productRoute = require('.Routes/ProductRoute'); 
+const productRoute = require('./Routes/ProductRoute'); // Import the product route 
 
 app.use('/products', productRoute); // Use the product route
 
