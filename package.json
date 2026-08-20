@@ -14,7 +14,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
-    "env": "^0.0.2",
+    "dotenv": "^16.6.1",
     "express": "^5.2.1",
     "mongoose": "^9.9.3",
     "nodemon": "^3.1.14"
@@ -26,6 +26,5 @@
   "bugs": {
     "url": "https://github.com/festusoparaocha-netizen/BokuSuperMarket/issues"
   },
-  "homepage": "https://github.com/festusoparaocha-netizen/BokuSuperMarket#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/festusoparaocha-netizen/BokuSuperMarket#readme"
 }

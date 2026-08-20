@@ -13,4 +13,4 @@ router.post('/createproducts', productController.createProduct);
 router.put('/updateproducts/:id', productController.updateProduct);
 
 //Export the router to be used in the main application
-module.exports = productrouter;
+module.exports = router;
