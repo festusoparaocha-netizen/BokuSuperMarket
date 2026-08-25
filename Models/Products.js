@@ -20,6 +20,10 @@ const productSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  IsAvailable: {
+    type: Boolean,
+    default: true
+  },
   color: {
     type: String
   }
