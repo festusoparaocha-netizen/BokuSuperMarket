@@ -1,4 +1,6 @@
 const Product = require('../Models/Products'); // Import the Product model
+
+
 //Creating and exporting new product
 exports.createProduct = async (req, res) => {
   try {
