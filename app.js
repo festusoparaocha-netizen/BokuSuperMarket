@@ -1,12 +1,14 @@
+const dotenv = require('dotenv');
+dotenv.config(); // Load environment variables from .env file
+
+
 const express = require('express');
 const app = express();
 
-const dotenv = require('dotenv');
 
 const productRoute = require('./Routes/ProductRoute'); // Import the product route 
 const userRoute = require('./Routes/UserRoute'); // Import the user route
 
-dotenv.config(); // Load environment variables from .env file
 
 app.use(express.json()); // Middleware to parse JSON request bodies
 

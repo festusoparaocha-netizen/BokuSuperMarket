@@ -26,6 +26,10 @@ const productSchema = new mongoose.Schema({
   },
   color: {
     type: String
+  },
+  image: {
+    type: String, // Store the image URL or path
+    required: false // Image is optional
   }
 }, {
   timestamps: true // Automatically adds createdAt and updatedAt fields

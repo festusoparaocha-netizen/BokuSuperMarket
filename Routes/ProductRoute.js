@@ -15,6 +15,9 @@ const productController = require('../Controllers/ProductController');
 // Route to create a new product
 router.post('/createproducts', protect, authorize('superadmin'), productController.createProduct);
 
+// Route to create a new product with image upload
+router.post('/createproductswithimage', protect, productController.createProductWithImage);
+
 // Route to update an existing product
 router.put('/updateproducts/:id', protect, authorize('storekeeper'), productController.updateProduct);
 
